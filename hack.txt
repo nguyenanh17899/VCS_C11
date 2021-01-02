@@ -1,0 +1,4 @@
+hacked
+$myfile = fopen("hack.txt", "r") or die("Unable to open file!");
+echo fread($myfile,filesize("hack.txt"));
+fclose($myfile);
