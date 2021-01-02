@@ -1,5 +1,5 @@
 # VCS_C11
-Lỗi unsafe deserialize có thể bị khai thác RCE bằng các đoạn mã thực thi php khi sử dụng function unserialize để giải mã, nó sẽ tự động gọi __wake_up()trong object để thực thi
+Lỗi unsafe deserialize có thể bị khai thác RCE bằng các đoạn mã thực thi php khi sử dụng function unserialize để giải mã, nó sẽ tự động gọi __wakeup()trong object để thực thi
 
 Thử bằng đoạn mã php để đọc file từ phía server:
 
